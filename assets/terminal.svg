@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="384" viewBox="0 0 900 384">
+<style>
+  .t{font:500 14px ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace;white-space:pre}
+  .ln{opacity:0;animation:show .01s 0s forwards}
+  @keyframes show{to{opacity:1}}
+  .blink{opacity:0;animation:show .01s 7.81s forwards, bl 1s steps(1) 7.81s infinite}
+  @keyframes bl{50%{opacity:0}}
+</style>
+<defs><linearGradient id="tb" x1="0" x2="1"><stop offset="0" stop-color="#ff8a4c"/><stop offset=".5" stop-color="#ff4d8d"/><stop offset="1" stop-color="#7c5cff"/></linearGradient></defs>
+<rect x="1" y="1" width="898" height="382" rx="14" fill="#0d1117" stroke="#30363d"/>
+<path d="M1 15a14 14 0 0 1 14-14h870a14 14 0 0 1 14 14v25H1z" fill="#161b22"/>
+<rect x="1" y="39" width="898" height="2" fill="url(#tb)" opacity=".8"/>
+<circle cx="24" cy="21" r="6" fill="#ff5f57"/><circle cx="44" cy="21" r="6" fill="#febc2e"/><circle cx="64" cy="21" r="6" fill="#28c840"/>
+<text x="450" y="26" text-anchor="middle" style="font:500 13px ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" fill="#8b949e">ihsan@dallas: ~</text>
+<g class="ln" style="animation-delay:0.60s"><text x="30" y="78" class="t"><tspan fill="#ff8a4c">~</tspan><tspan fill="#3fb950"> $</tspan></text></g>
+<clipPath id="c0"><rect x="62" y="60" height="26" width="0" style="animation:tp0 0.35s steps(6) 0.85s forwards"/></clipPath>
+<style>@keyframes tp0{to{width:57px}}</style>
+<text x="62" y="78" class="t" clip-path="url(#c0)"><tspan fill="#e6edf3">whoami</tspan></text>
+<g class="ln" style="animation-delay:1.55s"><text x="30" y="105" class="t"><tspan fill="#3fb950">ihsan</tspan><tspan fill="#9da7b3"> : software engineer, CS @ UT Dallas (May 2027)</tspan></text></g>
+<g class="ln" style="animation-delay:2.02s"><text x="30" y="132" class="t"><tspan fill="#ff8a4c">~</tspan><tspan fill="#3fb950"> $</tspan></text></g>
+<clipPath id="c2"><rect x="62" y="114" height="26" width="0" style="animation:tp2 0.94s steps(21) 2.27s forwards"/></clipPath>
+<style>@keyframes tp2{to{width:183px}}</style>
+<text x="62" y="132" class="t" clip-path="url(#c2)"><tspan fill="#e6edf3">ls ~/projects | wc -l</tspan></text>
+<g class="ln" style="animation-delay:3.56s"><text x="30" y="159" class="t"><tspan fill="#ff8a4c">100+</tspan><tspan fill="#6e7681">   # most repos are private, public ones are a small slice</tspan></text></g>
+<g class="ln" style="animation-delay:4.04s"><text x="30" y="186" class="t"><tspan fill="#ff8a4c">~</tspan><tspan fill="#3fb950"> $</tspan></text></g>
+<clipPath id="c4"><rect x="62" y="168" height="26" width="0" style="animation:tp4 0.90s steps(20) 4.29s forwards"/></clipPath>
+<style>@keyframes tp4{to{width:175px}}</style>
+<text x="62" y="186" class="t" clip-path="url(#c4)"><tspan fill="#e6edf3">cat now_building.txt</tspan></text>
+<g class="ln" style="animation-delay:5.54s"><text x="30" y="213" class="t"><tspan fill="#79c0ff">Problocks   </tspan><tspan fill="#9da7b3">K-12 learning platform, live in classrooms, 3,100+ commits</tspan></text></g>
+<g class="ln" style="animation-delay:5.66s"><text x="30" y="240" class="t"><tspan fill="#79c0ff">ProAnimate  </tspan><tspan fill="#9da7b3">AI animation studio, script in, narrated video out</tspan></text></g>
+<g class="ln" style="animation-delay:5.78s"><text x="30" y="267" class="t"><tspan fill="#79c0ff">Verbalytics </tspan><tspan fill="#9da7b3">AI patient simulator for dental teams (capstone)</tspan></text></g>
+<g class="ln" style="animation-delay:6.25s"><text x="30" y="294" class="t"><tspan fill="#ff8a4c">~</tspan><tspan fill="#3fb950"> $</tspan></text></g>
+<clipPath id="c8"><rect x="62" y="276" height="26" width="0" style="animation:tp8 0.49s steps(11) 6.50s forwards"/></clipPath>
+<style>@keyframes tp8{to{width:99px}}</style>
+<text x="62" y="294" class="t" clip-path="url(#c8)"><tspan fill="#e6edf3">echo $STACK</tspan></text>
+<g class="ln" style="animation-delay:7.34s"><text x="30" y="321" class="t"><tspan fill="#d2a8ff">TypeScript  Python  Go  React  Next.js  Supabase  LLMs  AWS</tspan></text></g>
+<g class="ln" style="animation-delay:7.81s"><text x="30" y="348" class="t"><tspan fill="#ff8a4c">~</tspan><tspan fill="#3fb950"> $</tspan></text></g>
+<rect class="blink" x="64" y="334" width="9" height="18" fill="#e6edf3"/>
+</svg>
