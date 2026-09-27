@@ -15,7 +15,7 @@
 
 ---
 
-I build products end to end: from a blank repo to something real people use. I've shipped **100+ projects** across AI systems, full-stack web, mobile, distributed systems and 3D games. You only see 54 public repos here; most of my work (including both companies I founded) lives in private repositories.
+I build products end to end: from a blank repo to something real people use. I've shipped **100+ projects** across AI systems, full-stack web, mobile, distributed systems and 3D games. The public repos here are only a small slice: most of my work (including both companies I founded) lives in private repositories.
 
 ### 🚀 What I'm building
 
